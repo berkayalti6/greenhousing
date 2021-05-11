@@ -10,6 +10,7 @@
     <title>Sensor Metrics</title>
   </head>
   <body>
+  
     <div class="bg-image"></div>
     <div class="container custom-container">
       <div class="row align-items-center">
@@ -32,24 +33,63 @@
             </thead>
             <tbody></tbody>
           </table>
+			
+			<div class="switcher1">
+			<b>TAVAN</b>
+		  	<label class="switch">
+			<input type="checkbox">
+			<span class="slider round"></span>
+			</label>
+			</div>
+			
+			
+			<div class= "switcher2">
+			<b>SULAMA</b>
+		  	<label class="switch2">
+			<input type="checkbox">
+			<span class="slider round"></span>
+			</label>
+			</div>
+			
+			<div class="ısıklar">
+			<p>Işık Seviyesini seçiniz</p>
+			<input type="radio" id="az" name="ısık" value="azısık">
+			<label for="az">Az Işık</label><br>
+			<input type="radio" id="orta" name="ısık" value="ortaısık">
+			<label for="orta">Orta Işık</label><br>
+			<input type="radio" id="cok" name="ısık" value="cokısık">
+			<label for="cok">Çok Işık</label><br>
+			<input type="radio" id="dur" name="ısık" value="durısık">
+			<label for="cok">Dur!</label><br>
+			</div>
+				
+			<br>
+			<div class="fanlar">
+			<p>Fan Hızını seçiniz</p>
+			<input type="radio" id="az" name="fan" value="azfan">
+			<label for="az">Yavaş</label><br>
+			<input type="radio" id="orta" name="fan" value="ortafan">
+			<label for="orta">Orta</label><br>
+			<input type="radio" id="cok" name="fan" value="cokfan">
+			<label for="cok">Hızlı</label><br>
+			<input type="radio" id="dur" name="fan" value="durfan">
+			<label for="cok">Dur!</label><br>
+			</div>
+
+		  
         </div>
       </div>
     </div>
-	
-	<div class="indicator_1">
-	<h2 id="indv1">gösterge</h2>
+
+	<div class="bottom">
 	</div>
-	
-	<div class="roofer">
-	<button class="btnr btnr1" onclick="myFunction_a()">Aç </button>
-	<button class="btnr btnr2" onclick="myFunction_k()">Kapat </button>
-	</div>
+
 	
 
 	
     <div class="footer text-center py-3">
       © 2021 Copyright:
-      <a href="https://www.linkedin.com/in/emrekokcu/"> Emre KOKCU</a>
+      <a href="https://github.com/berkayalti6/greenhousing"> Berkay ALTI</a>
     </div>
 
     <script type="text/javascript" src="./lib/Jquery.js"></script>
